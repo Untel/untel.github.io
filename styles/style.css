@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "Bitter";
+    src: url('/styles/fonts/Bitter-Regular.otf');
+}
+@font-face {
+    font-family: "Bitter";
+    font-weight: bold;
+    src: url('/styles/fonts/Bitter-Bold.otf');
+}
+@font-face {
+    font-family: "Bitter";
+    font-style: italic;
+    src: url('/styles/fonts/Bitter-Italic.otf');
+}
+
+body{
+
+  font-family: 'Roboto', sans-serif;
+  background-color: #afd1dd;
+
+}
+
+blockquote {
+  height: 100%;
+}
+
+h2{
+  color: #afd1dd;
+  border-bottom : 2px solid #afd1dd;
+  font-weight: bold;
+  margin: 15px 0 15px 50px;
+  padding: 2px;
+  transform: translateY(-75%);
+
+}
+
+.header{
+  padding: 20px;
+  background-color: #f7f6f6;
+
+}
+
+.photo img{
+  height: 265px;
+  width: 210px;
+}
+
+.nom{
+
+}
+
+.nom h1{
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+
+}
+
+.nom p{
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.icon_mini{
+  height: 20px;
+  width: 20px;
+  margin-right: 18px;
+}
+
+.icon_big{
+  height: 40px;
+  width: 40px;
+  margin: 0 20px 10px 0;
+  transform: translateY(85%);
+}
+
+.reseau ul{
+  margin-top: 30px;
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+}
+
+.reseau ul li{
+  margin-bottom:10px;
+}
+
+.reseau ul li span{
+  margin-right:20px;
+}
+
+.panneau{
+  left: 50%;
+  padding: 5px;
+  padding-right: 25px;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+  font-size: 30px;
+  background-color: #afd1dd;
+  width: 350px;
+  heigt: 50px;
+  transform: translateY(-25px) translateX(-50%);
+
+}
+
+@keyframes balancer {
+    0%, 100% {transform:rotate(-10deg);}
+    50% {transform:rotate(40deg);}
+}
+
+.panneau img{
+  position: absolute;
+  left: 0;
+  top: -5px;
+  height: 70px;
+  width: 70px;
+  animation: balancer 5s infinite;
+}
+
+
+/* CORP PARTIE */
+.corp{
+  margin-top: 50px;
+  padding : 10px 0 0 10px;
+}
+.leftside{
+    left: 0;
+    padding-right: 0;
+}
+
+.rightside{
+  margin: 0;
+}
+
+.formation{
+
+  background-color : #f7f6f6;
+  margin: 10px 0 0 0;
+  padding: 5px 20px 20px 20px;
+
+}
+
+dt{
+  border-left: 2px solid black;
+  padding: 0 0 0 25px;
+  margin-bottom: 20px;
+
+}
+
+dt span{
+  font-size: 15px;
+}
+
+dt h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 0 5px 0;
+}
+
+dt .option{
+  font-size: 15px;
+  margin: 0;
+}
+
+dt .adresse{
+  font-style: italic;
+  font-size: 12px;
+  color: #696969;
+}
+
+div .bulle{
+  position: absolute;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #1280a7;
+  opacity: 0.6;
+}
+
+.lesbulles{
+  margin: 0 auto;
+}
+
+.bulles{
+  height:420px;
+  width: 300px;
+  text-align: center;
+}
+
+.bulles h4{
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.bulles p{
+  margin: 40% 0 0 0;
+}
+
+#js{
+  transform: translateX(40px) translateY(70px);
+  width: 220px;
+  height: 220px;
+}
+
+#c{
+  transform: translateX(50px) translateY(0px);
+  width: 120px;
+  height: 120px;
+}
+
+#java{
+  transform: translateX(150px) translateY(10px);
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+}
+
+#html{
+  transform: translateX(-20px) translateY(120px);
+  width: 100px;
+  height: 100px;
+}
+
+
+#sql{
+  transform: translateX(200px) translateY(140px);
+  width: 140px;
+  height: 140px;
+}
+
+#css{
+  transform: translateX(-5px) translateY(195px);
+  width: 120px;
+  height: 120px;
+}
+
+#php{
+  transform: translateX(120px) translateY(230px);
+  width: 130px;
+  height: 130px;
+}
+
+.footer{
+  margin: 0 5px 5px 5px;
+  padding: 0 0px 5px 5px;
+}
+
+.atout{
+  padding: 0px 20px 10px 20px;
+  margin-left: -15px;
+  margin-bottom: 15px;
+  /* margin-right: -15px; */
+  /* margin: 0; */
+  background-color: #afd1dd;
+}
+
+.atout h2{
+  color: #fff;
+  border-bottom : 2px solid #FFF;
+  font-weight: bold;
+  margin: 15px 0 15px 50px;
+  padding: 0;
+}
+
+.atout h3{
+    color: #fff;
+
+}
+
+.plus{
+  display: inline-block;
+
+  left: 50%;
+}
+
+
+.jobs{
+}
+
+.hobbies{
+}
+
+
+/* Effet papier */
+/* on fixe la largeur du bloc
+   et on le définit comme référent */
+blockquote {
+    position: relative;
+    padding: 0px;
+    margin: 15px;
+
+    /* A enlever pour responsiv */
+    width: 1400px;
+}
+/* on ajoute des effets graphiques
+   sur nos futures feuilles */
+blockquote,
+blockquote:after,
+blockquote:before {
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+
+
+}
+
+/* on utilise les pseudo éléments pour ajouter des feuilles */
+blockquote:after,
+blockquote:before {
+    position: absolute;
+    top: 0; right:3px; bottom:0; left:-3px;
+    content: "";
+    z-index: -10;
+    /* définit le centre de transformation */
+    transform-origin: 100% 0;
+}
+blockquote:after {
+    transform: rotate(-0.6deg);
+}
+blockquote:before {
+    transform: rotate(-1.2deg);
+    right: 5px; left: -5px;
+}
