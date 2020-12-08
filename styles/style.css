@@ -49,7 +49,7 @@ h2{
 }
 
 .photo #glass {
-  display: none;
+  opacity: 0;
   position: absolute;
   width: 121px;
   left: 101px;
@@ -59,10 +59,29 @@ h2{
 
 .photo:hover #glass {
   display: initial;
+  opacity: 1;
+  animation: glass-animation .4s linear;
 }
 
 .photo:hover #photo {
   animation: filter-animation 1s infinite;
+}
+
+
+@keyframes glass-animation {
+  0% {
+    top: 0px;
+    left: 0;
+  }
+  
+  50% {
+    left: 180px;
+  }
+
+  100% {
+    top: 83px;
+    left: 101px;
+  }
 }
 
 @keyframes filter-animation {
