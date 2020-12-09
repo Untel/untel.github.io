@@ -64,7 +64,7 @@ h2{
 }
 
 .photo:hover #photo {
-  animation: filter-animation 1s infinite;
+  animation: filter-animation .5s infinite;
 }
 
 
