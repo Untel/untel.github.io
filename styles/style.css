@@ -14,14 +14,10 @@
 }
 
 body{
-
   font-family: 'Roboto', sans-serif;
   background-color: #afd1dd;
-
-}
-
-blockquote {
-  height: 100%;
+  padding: 30px;
+  padding-bottom: 60px;
 }
 
 h2{
@@ -43,6 +39,7 @@ h2{
 .photo {
   position: relative;
 }
+
 .photo #photo{
   height: 265px;
   filter: grayscale(1);
@@ -351,9 +348,8 @@ blockquote {
     position: relative;
     padding: 0px;
     margin: 15px;
-
-    /* A enlever pour responsiv */
     width: 1400px;
+    padding-bottom: 20px;
 }
 /* on ajoute des effets graphiques
    sur nos futures feuilles */
@@ -362,8 +358,6 @@ blockquote:after,
 blockquote:before {
     background: #fff;
     box-shadow: 0 0 4px rgba(0,0,0,0.4);
-
-
 }
 
 /* on utilise les pseudo éléments pour ajouter des feuilles */
